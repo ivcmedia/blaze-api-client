@@ -1,0 +1,16 @@
+{
+  "include": ["src/*.ts"],
+  "exclude": ["node_modules/**"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "declarationDir": "dist",
+    "target": "ESNext",
+    "module": "CommonJS",
+    "declaration": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "strict": true,
+    "lib": ["dom", "esnext"],
+    "skipLibCheck": true
+  }
+}

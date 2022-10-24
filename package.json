@@ -1,0 +1,16 @@
+{
+  "name": "blaze-api-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/BlazeAPIClient.js",
+  "types": "dist/BlazeAPIClient.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "author": "David Disch",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
